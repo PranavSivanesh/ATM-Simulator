@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//Function prototypes
 void checkBalance(float balance);
 float deposit();
 float withdraw(float balance);
@@ -42,6 +43,7 @@ int main(){
     return 0;
 }
 
+//Functions
 void checkBalance(float balance){
     printf("\nYou current balance is $%.2f\n", balance);
 }
